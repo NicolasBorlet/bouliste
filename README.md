@@ -1,2 +1,5 @@
 # Bouliste-Bugey-Sud
- Thème Wordpress
+
+Thème Wordpress by Borlet Nicolas
+
+Non terminé -> Wordpress corrompu
