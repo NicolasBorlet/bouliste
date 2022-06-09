@@ -1,0 +1,20 @@
+.ImageContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+
+  .home_image {
+    filter: url(../images/filter.jpg);
+    -webkit-mask-image: url(../images/mask.svg);
+    mask-image: url(../images/mask.svg);
+  }
+
+  p {
+    @include Huge_title();
+    color: $white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

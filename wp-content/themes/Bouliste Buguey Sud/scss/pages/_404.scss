@@ -1,0 +1,53 @@
+body {
+  font-family: "Sen", sans-serif;
+}
+.h1404 {
+  position: relative;
+  top: 226px;
+  font-family: "Sen", sans-serif;
+  margin: 0;
+  color: #5099a5;
+  font-size: 136px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.logo_bleu {
+  float: left;
+  margin-left: 112px;
+  margin-top: 40px;
+  position: absolute;
+}
+
+.rond_haut {
+  position: absolute;
+  left: 87.2%;
+}
+
+.rond_bas {
+  position: absolute;
+  left: -10%;
+}
+
+#rectangle {
+  display: flex;
+  width: 592px;
+  height: 156px;
+  padding: auto;
+  margin: auto;
+  margin-top: 304px;
+  background: #fdb25b;
+  border-radius: 34px;
+}
+
+.p404 {
+  text-decoration: none;
+  color: white;
+  padding-left: 20%;
+  padding-top: 12%;
+  font-family: Sen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}

@@ -1,0 +1,94 @@
+//Fonts
+
+@mixin Menu_style_desktop {
+  font-size: $heading-3-size;
+  font-weight: $typography-bold;
+  line-height: 22px;
+}
+
+@mixin Huge_title {
+  font-size: $font-size-huge;
+  font-weight: $typography-bold;
+  line-height: 30px;
+}
+
+@mixin Subtitle {
+  font-size: $heading-1-size;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+@mixin List_map {
+  font-style: normal;
+  font-weight: 700;
+  font-size: $font-size-fat;
+  line-height: 29px;
+}
+
+@mixin Big_title_desktop {
+  font-size: $heading-1-size;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+@mixin Base_font-style {
+  font-size: $heading-4-size;
+  line-height: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin H3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+@mixin Litle_title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: $font-size-xl;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+@mixin List_overlay {
+  font-size: $font-size-sm;
+  font-weight: $typography-bold;
+  line-height: 150%;
+}
+
+//Links
+@mixin Basic_interactive_link {
+  @include Basic_transition;
+  color: $bleuclaire;
+  border-bottom: 3.5px solid #b7b7b7;
+}
+
+@mixin Basic_interactive_link-hover {
+  @include Basic_transition;
+  color: $orange;
+  border-bottom: 3.5px solid #fdb25b;
+}
+
+//Buttons
+@mixin Basic_button {
+  @include Menu_style_desktop();
+  color: $bleu;
+  padding: 16px 26px;
+  background: $bleuclaire;
+  border-radius: 10px;
+  border: none;
+}
+
+//Transitions
+@mixin Basic_transition {
+  transition: 0.3s;
+}
+
+//Wrap
+@mixin Wrap_desktop {
+  margin: 0 130px;
+}

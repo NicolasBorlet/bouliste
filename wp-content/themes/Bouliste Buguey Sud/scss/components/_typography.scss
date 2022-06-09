@@ -1,0 +1,13 @@
+.Typography {
+  font-family: "Sen", sans-serif;
+
+  &_title {
+    @include Huge_title();
+    color: $bleu;
+  }
+
+  &_subtitle {
+    @include Subtitle();
+    color: $bleu;
+  }
+}

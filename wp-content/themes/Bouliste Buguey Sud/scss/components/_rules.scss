@@ -1,0 +1,38 @@
+.Rules {
+  padding-top: 60px;
+
+  .Typography_title {
+    text-align: center;
+  }
+
+  &_Content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+    @include Wrap_desktop();
+
+    &_Item {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+
+      &_title {
+        @include List_map();
+        color: $bleu;
+        padding-top: 30px;
+      }
+
+      &_subtitle {
+        @include Menu_style_desktop();
+        color: $bleu;
+        font-weight: normal;
+        padding-top: 15px;
+      }
+
+      &_image {
+        padding-top: 30px;
+        text-align: center;
+      }
+    }
+  }
+}

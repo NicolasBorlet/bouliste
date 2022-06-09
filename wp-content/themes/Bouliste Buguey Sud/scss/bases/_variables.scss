@@ -1,0 +1,96 @@
+// font
+$sen: "Sen", sans-serif;
+$opensans: "Open Sans", sans-serif;
+$font-family: $opensans;
+
+// -------- Colors -----------
+$bleu: #4e7c8b;
+$orange: #fdb25b;
+$bleuclaire: #7ee7d0;
+$gris: #b7b7b7;
+
+// color palettes
+$white: #fff;
+$black: #000;
+
+// vertical paddings
+$padding-xl: 32px;
+$padding-lg: 24px; // containers
+$padding-md: 16px; // small containers and buttons
+$padding-sm: 12px; // Form controls and items
+$padding-xs: 8px; // small items
+$padding-xss: 4px; // more small
+
+$layoutPadding: $padding-lg;
+$layoutPadding-xl: 90px;
+$layoutPadding-xxl: 140px;
+
+// vertical margins
+$margin-xl: 32px;
+$margin-lg: 24px; // containers
+$margin-md: 16px; // small containers and buttons
+$margin-sm: 12px; // Form controls and items
+$margin-xs: 8px; // small items
+$margin-xss: 4px; // more small
+
+$layoutMargin: $margin-lg;
+$layoutMargin-xl: 90px;
+$layoutMargin-xxl: 140px;
+$carouselMargin: 10px;
+
+// fonts
+$font-size-base: 14px;
+$heading-1-size: ceil($font-size-base * 2.57); //36
+$heading-2-size: ceil($font-size-base * 1.85); //26
+$heading-3-size: ceil($font-size-base * 1.28); //18
+$font-size-lg: $font-size-base + 2px;
+$font-size-xl: $heading-3-size + 2px; //20
+$font-size-big: $font-size-xl + 2px; //22
+$font-size-fat: $font-size-big + 2px; //24
+$font-size-huge: ceil($font-size-base * 3.42); //48
+$font-size-sm: $font-size-base - 2px; //12
+$heading-4-size: $font-size-lg; //16
+$heading-5-size: $font-size-base; //14
+
+// typography
+$typography-bold: bold;
+$typography-semiBold: 600;
+
+// height rules
+$height-base: 35px;
+$height-lg: 60px;
+$height-sm: 26px;
+
+// Media queries breakpoints
+// $screen-xs and $screen-xs-min is not used in Grid
+// smallest break point is $screen-md
+$screen-xs: 480px;
+$screen-xs-min: $screen-xs;
+// 👆 Extra small screen / phone
+
+// 👇 Small screen / tablet
+$screen-sm: 576px;
+$screen-sm-min: $screen-sm;
+
+// Medium screen / desktop
+$screen-md: 768px;
+$screen-md-min: $screen-md;
+
+// Large screen / wide desktop
+$screen-lg: 992px;
+$screen-lg-min: $screen-lg;
+
+// Extra large screen / full hd
+$screen-xl: 1200px;
+$screen-xl-min: $screen-xl;
+
+// Extra extra large screen / large desktop
+$screen-xxl: 1600px;
+$screen-xxl-min: $screen-xxl;
+
+// provide a maximum
+$screen-xs-max: ($screen-sm-min - 1px); // 577px
+$screen-sm-max: ($screen-md-min - 1px); // 767px
+$screen-md-max: ($screen-lg-min - 1px); // 991px
+$screen-lg-max: ($screen-xl-min - 1px); // 1199px
+$screen-xl-max: ($screen-xxl-min - 1px); // 1599px

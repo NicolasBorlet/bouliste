@@ -1,0 +1,39 @@
+.Discover {
+  margin-top: 200px;
+  padding: 116px 0;
+  background-image: url(../images/fond.svg);
+  background-size: cover;
+
+  &_menu {
+    display: flex;
+    justify-content: space-between;
+
+    &_item {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      background-color: $bleu;
+      border-radius: 35px;
+      width: 280px;
+      height: 389px;
+
+      h3 {
+        @include H3();
+        color: $white;
+      }
+
+      p {
+        @include Base_font_style();
+        color: $white;
+        text-align: center;
+        margin: 0 30px;
+      }
+
+      img {
+        width: 72px;
+        height: 72px;
+      }
+    }
+  }
+}

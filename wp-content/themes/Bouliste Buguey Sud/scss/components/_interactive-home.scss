@@ -1,0 +1,36 @@
+.InteractiveHome {
+  display: flex;
+
+  &_video {
+    width: 50%;
+    z-index: -1;
+  }
+
+  &_content {
+    width: 50vw;
+    max-width: 580px;
+    margin-top: 184px;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      @include Big_title_desktop();
+      color: $bleu;
+      padding-bottom: 67px;
+
+      a {
+        @include Basic_interactive_link();
+
+        &:hover {
+          @include Basic_interactive_link-hover();
+        }
+      }
+    }
+
+    .Arrowdown {
+      display: flex;
+      justify-content: center;
+      padding-top: 88px;
+    }
+  }
+}

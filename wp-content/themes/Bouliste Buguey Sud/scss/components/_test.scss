@@ -1,0 +1,33 @@
+.Test {
+  background: $bleu;
+  position: relative;
+
+  &_container {
+    @include Wrap_desktop();
+    padding: 30px 0 100px 0;
+    display: flex;
+  }
+
+  &_content {
+    max-width: 40%;
+    padding-left: 100px;
+
+    .Typography_title {
+      color: $bleuclaire;
+    }
+
+    .Typography_content {
+      @include Menu_style_desktop();
+      font-weight: normal;
+      padding-top: 60px;
+      color: $white;
+    }
+  }
+
+  &_image {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    max-height: 452px;
+  }
+}

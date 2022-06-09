@@ -1,0 +1,36 @@
+header {
+  position: absolute;
+  width: 100%;
+
+  .Nav {
+    padding: 21px 130px 0 130px;
+
+    &_navigation {
+      display: flex;
+      align-items: center;
+
+      .menu-main_menu-container {
+        @include Menu_style_desktop();
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+
+        ul {
+          display: flex;
+
+          li {
+            a {
+              color: $bleu;
+              display: inline;
+              padding-left: 50px;
+
+              &:hover {
+                text-decoration: underline $orange 3px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

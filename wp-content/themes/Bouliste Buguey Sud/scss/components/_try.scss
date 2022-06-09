@@ -1,0 +1,60 @@
+.Try {
+  padding: 60px 0;
+
+  .Typography {
+    &_title,
+    &_subtitle {
+      text-align: center;
+    }
+
+    &_subtitle {
+      font-weight: bold;
+      padding-bottom: 40px;
+    }
+  }
+
+  &_block {
+    padding-top: 42px;
+    @include Wrap_desktop();
+    display: flex;
+    justify-content: space-between;
+
+    &_reverse {
+      display: flex;
+      flex-direction: row-reverse;
+
+      &_content {
+        padding-left: 0 !important;
+        padding-right: 100px;
+      }
+    }
+
+    &_content {
+      padding-left: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      p {
+        @include Menu_style_desktop();
+        color: $bleu;
+        font-weight: normal;
+        padding-bottom: 18px;
+      }
+
+      &_links {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+          padding-right: 20px;
+          width: 280px;
+
+          button {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

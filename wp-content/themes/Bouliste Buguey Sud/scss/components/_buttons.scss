@@ -1,0 +1,11 @@
+.Button {
+  &_basic {
+    @include Basic_button();
+    @include Basic_transition();
+
+    &:hover {
+      @include Basic_transition();
+      box-shadow: 4px 4px #fdb25b;
+    }
+  }
+}

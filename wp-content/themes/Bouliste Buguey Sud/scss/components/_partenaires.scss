@@ -1,0 +1,19 @@
+.Partenaires {
+  padding: 60px 0;
+
+  .Typography_title {
+    text-align: center;
+  }
+
+  .Partenaires_list {
+    @include Wrap_desktop();
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+    img {
+      max-width: 350px;
+    }
+  }
+}

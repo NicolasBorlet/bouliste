@@ -1,0 +1,30 @@
+//Reset
+@import "vendors/reset";
+
+//Bases
+@import "bases/variables";
+@import "bases/mixins";
+
+//Layout
+@import "layout/header";
+@import "layout/footer";
+@import "layout/wrap";
+
+//Pages
+@import "pages/imagecontent";
+@import "pages/search";
+
+//Components
+@import "components/homes";
+@import "components/interactive-home";
+@import "components/buttons";
+@import "components/news";
+@import "components/interactive-map";
+@import "components/typography";
+@import "components/discover";
+@import "components/initiation";
+@import "components/test";
+@import "components/rules";
+@import "components/try";
+@import "components/palmares";
+@import "components/partenaires";

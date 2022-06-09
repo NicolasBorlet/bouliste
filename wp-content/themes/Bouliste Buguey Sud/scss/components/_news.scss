@@ -1,0 +1,39 @@
+.News {
+  min-height: 225px;
+  background: url(../images/bg_news.jpg) no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &_contain {
+    &_content {
+      display: flex;
+
+      &_left {
+        display: flex;
+        align-items: center;
+        margin-left: -50px;
+
+        h3 {
+          @include H3();
+          color: $bleu;
+          padding-left: 20px;
+        }
+      }
+
+      &_right {
+        padding-left: 200px;
+
+        .title {
+          @include Litle_title();
+          color: $white;
+        }
+
+        .subtitle {
+          font-size: $heading-4-size;
+          color: $white;
+        }
+      }
+    }
+  }
+}
