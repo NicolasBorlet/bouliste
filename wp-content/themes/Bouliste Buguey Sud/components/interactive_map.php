@@ -63,9 +63,9 @@
             <div class="list">
                 <ul>
                     <li><img src="<?php echo(get_template_directory_uri()); ?>/images/Contact.svg"/><?php the_field('carte_st_benoit_president');?></li>
-                    <li><img src="<?php echo(get_template_directory_uri()); ?>/images/direction.svg"/><?php the_field('carte_saint_benoit_adresse');?></li>
-                    <li><img src="<?php echo(get_template_directory_uri()); ?>/images/agenda.svg"/><?php the_field('carte_saint_benoit_horaire');?></li>
-                    <li><img src="<?php echo(get_template_directory_uri()); ?>/images/tel.svg"/><?php the_field('carte_saint_benoit_telephone');?></li>
+                    <li><img src="<?php echo(get_template_directory_uri()); ?>/images/direction.svg"/><?php the_field('carte_st_benoit_adresse');?></li>
+                    <li><img src="<?php echo(get_template_directory_uri()); ?>/images/agenda.svg"/><?php the_field('carte_st_benoit_horaire');?></li>
+                    <li><img src="<?php echo(get_template_directory_uri()); ?>/images/tel.svg"/><?php the_field('carte_st_benoit_telephone');?></li>
                 </ul>
             </div>
         </section>
